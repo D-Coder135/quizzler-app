@@ -1,1 +1,3 @@
-class Question {}
+class Question {
+  String questionText;
+}
