@@ -78,6 +78,7 @@ class _QuizPageState extends State<QuizPage> {
                 //The user picked true.
                 bool correctAnswer = answersList[questionNumber];
                 setState(() {
+                  if (correctAnswer == true) {}
                   scoreKeeper.add(Icon(
                     Icons.check,
                     color: Colors.green,
