@@ -110,7 +110,9 @@ class _QuizPageState extends State<QuizPage> {
                 //The user picked false.
                 bool correctAnswer = answersList[questionNumber];
                 setState(() {
-                  if (correctAnswer == false) {}
+                  if (correctAnswer == false) {
+                    print('User got it correct!');
+                  }
                   questionNumber++;
                   scoreKeeper.add(
                     Icon(
