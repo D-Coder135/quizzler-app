@@ -37,6 +37,7 @@ class _QuizPageState extends State<QuizPage> {
 
   List<bool> answersList = [
     false,
+    true,
   ];
 
   @override
