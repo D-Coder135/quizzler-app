@@ -63,7 +63,8 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(10.0),
             child: Center(
               child: Text(
-                questionsList[questionNumber],
+                // questionsList[questionNumber],
+
                 // 'This is where the question text will go.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
