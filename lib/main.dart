@@ -25,6 +25,10 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
+  List<Icon> scoreKeeper = [];
+
+  int questionNumber = 0;
+
   List<String> questionsList = [
     'You can lead a cow down stairs but not up stairs.',
     'Approximately one quarter of human bones are in the feet.',
@@ -114,10 +118,6 @@ class _QuizPageState extends State<QuizPage> {
       ],
     );
   }
-
-  List<Icon> scoreKeeper = [];
-
-  int questionNumber = 0;
 }
 
 /*
