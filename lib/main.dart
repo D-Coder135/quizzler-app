@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizzler/questions.dart';
 
 void main() => runApp(Quizzler());
 
@@ -34,6 +35,9 @@ class _QuizPageState extends State<QuizPage> {
     'Approximately one quarter of human bones are in the feet.',
     'A slug\'s blood is green.'
   ];
+
+  Question question1 =
+      Question('You can lead a cow down stairs but not up stairs.', false);
 
   List<bool> answersList = [false, true, true];
 
