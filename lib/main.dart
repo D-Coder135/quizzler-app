@@ -91,6 +91,8 @@ class _QuizPageState extends State<QuizPage> {
               onPressed: () {
                 //The user picked true.
                 // bool correctAnswer = answersList[questionNumber];
+                bool correctAnswer =
+                    questionBank[questionNumber].questionAnswer;
                 setState(() {
                   if (correctAnswer == true) {
                     print('User got it correct!');
