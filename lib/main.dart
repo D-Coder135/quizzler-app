@@ -35,10 +35,7 @@ class _QuizPageState extends State<QuizPage> {
     'A slug\'s blood is green.'
   ];
 
-  List<bool> answersList = [
-    false,
-    true,
-  ];
+  List<bool> answersList = [false, true, true];
 
   @override
   Widget build(BuildContext context) {
