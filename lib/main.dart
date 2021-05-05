@@ -42,6 +42,8 @@ class _QuizPageState extends State<QuizPage> {
   Question question2 = Question(
       'Approximately one quarter of human bones are in the feet.', true);
 
+  Question question3 = Question('A slug\'s blood is green.', true);
+
   List<bool> answersList = [false, true, true];
 
   @override
