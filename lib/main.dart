@@ -78,6 +78,7 @@ class _QuizPageState extends State<QuizPage> {
                     Icons.check,
                     color: Colors.green,
                   ));
+                  questionNumber += 1;
                 });
               },
             ),
