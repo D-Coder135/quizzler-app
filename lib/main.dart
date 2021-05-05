@@ -80,7 +80,9 @@ class _QuizPageState extends State<QuizPage> {
                 setState(() {
                   if (correctAnswer == true) {
                     print('The answer given by the user is correct!');
-                  } else {}
+                  } else {
+                    print('The answer given by the user is wrong!');
+                  }
                   scoreKeeper.add(Icon(
                     Icons.check,
                     color: Colors.green,
