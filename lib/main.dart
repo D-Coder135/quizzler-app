@@ -30,10 +30,6 @@ class _QuizPageState extends State<QuizPage> {
     'Approximately one quarter of human bones are in the feet.',
     'A slug\'s blood is green.'
   ];
-  List<Icon> scoreKeeper = [];
-
-  int questionNumber = 0;
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -100,6 +96,7 @@ class _QuizPageState extends State<QuizPage> {
               onPressed: () {
                 //The user picked false.
                 setState(() {
+                  questionNumber += 1;
                   scoreKeeper.add(
                     Icon(
                       Icons.close,
@@ -117,6 +114,10 @@ class _QuizPageState extends State<QuizPage> {
       ],
     );
   }
+
+  List<Icon> scoreKeeper = [];
+
+  int questionNumber = 0;
 }
 
 /*
