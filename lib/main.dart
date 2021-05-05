@@ -79,9 +79,9 @@ class _QuizPageState extends State<QuizPage> {
                 bool correctAnswer = answersList[questionNumber];
                 setState(() {
                   if (correctAnswer == true) {
-                    print('The answer given by the user is correct!');
+                    print('User got it correct!');
                   } else {
-                    print('The answer given by the user is wrong!');
+                    print('User got it wrong!');
                   }
                   scoreKeeper.add(Icon(
                     Icons.check,
