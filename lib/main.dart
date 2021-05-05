@@ -20,6 +20,7 @@ class Quizzler extends StatelessWidget {
 }
 
 class QuizPage extends StatefulWidget {
+  List<Icon> scoreKeeper = [];
   @override
   _QuizPageState createState() => _QuizPageState();
 }
