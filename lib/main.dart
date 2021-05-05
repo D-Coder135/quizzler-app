@@ -112,7 +112,7 @@ class _QuizPageState extends State<QuizPage> {
                 setState(() {
                   if (correctAnswer == false) {
                     print('User got it correct!');
-                  }
+                  } else {}
                   questionNumber++;
                   scoreKeeper.add(
                     Icon(
