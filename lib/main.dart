@@ -30,11 +30,11 @@ class _QuizPageState extends State<QuizPage> {
 
   int questionNumber = 0;
 
-  List<String> questionsList = [
-    'You can lead a cow down stairs but not up stairs.',
-    'Approximately one quarter of human bones are in the feet.',
-    'A slug\'s blood is green.'
-  ];
+  // List<String> questionsList = [
+  //   'You can lead a cow down stairs but not up stairs.',
+  //   'Approximately one quarter of human bones are in the feet.',
+  //   'A slug\'s blood is green.'
+  // ];
 
   Question question1 =
       Question('You can lead a cow down stairs but not up stairs.', false);
