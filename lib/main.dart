@@ -36,13 +36,13 @@ class _QuizPageState extends State<QuizPage> {
   //   'A slug\'s blood is green.'
   // ];
 
-  Question question1 =
-      Question('You can lead a cow down stairs but not up stairs.', false);
-
-  Question question2 = Question(
-      'Approximately one quarter of human bones are in the feet.', true);
-
-  Question question3 = Question('A slug\'s blood is green.', true);
+  // Question question1 =
+  //     Question('You can lead a cow down stairs but not up stairs.', false);
+  //
+  // Question question2 = Question(
+  //     'Approximately one quarter of human bones are in the feet.', true);
+  //
+  // Question question3 = Question('A slug\'s blood is green.', true);
 
   List<Question> questionsAnswersList = [];
   // List<bool> answersList = [false, true, true];
