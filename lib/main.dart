@@ -34,7 +34,13 @@ class _QuizPageState extends State<QuizPage> {
   void checkAnswer(bool userPickedAnswer) {
     bool correctAnswer = quizBrain.getQuestionAnswer();
     setState(() {
-      if (quizBrain.isFinished()) {}
+      if (quizBrain.isFinished()) {
+        Alert(
+            context: context,
+            title: 'FINISHED!',
+            type: AlertType.error,
+            desc: 'You have finished the quiz.');
+      }
 
       if (correctAnswer == userPickedAnswer) {
         scoreKeeper.add(Icon(
