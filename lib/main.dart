@@ -30,7 +30,9 @@ class QuizPage extends StatefulWidget {
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scoreKeeper = [];
 
-  void checkAnswer(bool userPickedAnswer) {}
+  void checkAnswer(bool userPickedAnswer) {
+    bool correctAnswer = quizBrain.getQuestionAnswer();
+  }
   // int questionNumber = 0;
 
   // List<String> questionsList = [
