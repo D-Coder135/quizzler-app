@@ -156,9 +156,3 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 }
-
-/*
-question1:
-question2:  true,
-question3:  true,
-*/
