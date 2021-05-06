@@ -67,7 +67,7 @@ class _QuizPageState extends State<QuizPage> {
             child: Center(
               child: Text(
                 // questionsList[questionNumber],
-                questionBank[questionNumber].questionText,
+                quizBrain.questionBank[questionNumber].questionText,
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 25.0,
