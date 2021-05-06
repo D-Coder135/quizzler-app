@@ -1,6 +1,6 @@
 import 'questions.dart';
 
-class QuestionBank {
+class QuizBrain {
   List<Question> questionBank = [
     Question('Some cats are actually allergic to humans', true),
     Question('You can lead a cow down stairs but not up stairs.', false),
