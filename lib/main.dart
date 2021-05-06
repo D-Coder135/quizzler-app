@@ -41,6 +41,10 @@ class _QuizPageState extends State<QuizPage> {
         // print('User got it correct!');
       } else {
         // print('User got it wrong!');
+        scoreKeeper.add(
+          Icon(Icons.close,
+          color: Colors.red),
+        );
       }
 
       quizBrain.nextQuestion();
