@@ -95,8 +95,9 @@ class _QuizPageState extends State<QuizPage> {
                 //The user picked true.
                 // bool correctAnswer = answersList[questionNumber];
                 bool correctAnswer =
-                    // quizBrain.questionBank[questionNumber].questionAnswer;
-                    setState(() {
+                    quizBrain.getQuestionAnswer(questionNumber);
+                // quizBrain.questionBank[questionNumber].questionAnswer;
+                setState(() {
                   if (correctAnswer == true) {
                     print('User got it correct!');
                   } else {
