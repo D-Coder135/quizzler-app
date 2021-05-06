@@ -138,7 +138,7 @@ class _QuizPageState extends State<QuizPage> {
                   } else {
                     print('User got it wrong!');
                   }
-                  questionNumber++;
+                  // questionNumber++;
                   scoreKeeper.add(
                     Icon(
                       Icons.close,
