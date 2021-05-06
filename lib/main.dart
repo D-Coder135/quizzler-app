@@ -41,6 +41,7 @@ class _QuizPageState extends State<QuizPage> {
             type: AlertType.error,
             desc: 'You have finished the quiz.');
         quizBrain.reset();
+        scoreKeeper = [];
       }
 
       if (correctAnswer == userPickedAnswer) {
