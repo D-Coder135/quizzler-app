@@ -114,21 +114,21 @@ class _QuizPageState extends State<QuizPage> {
               onPressed: () {
                 //The user picked true.
                 // bool correctAnswer = answersList[questionNumber];
-                bool correctAnswer = quizBrain.getQuestionAnswer();
-                // quizBrain.questionBank[questionNumber].questionAnswer;
-                setState(() {
-                  if (correctAnswer == true) {
-                    print('User got it correct!');
-                  } else {
-                    print('User got it wrong!');
-                  }
-                  scoreKeeper.add(Icon(
-                    Icons.check,
-                    color: Colors.green,
-                  ));
-                  quizBrain.nextQuestion();
-                  // questionNumber++;
-                });
+                // bool correctAnswer = quizBrain.getQuestionAnswer();
+                // // quizBrain.questionBank[questionNumber].questionAnswer;
+                // setState(() {
+                //   if (correctAnswer == true) {
+                //     print('User got it correct!');
+                //   } else {
+                //     print('User got it wrong!');
+                //   }
+                //   scoreKeeper.add(Icon(
+                //     Icons.check,
+                //     color: Colors.green,
+                //   ));
+                //   quizBrain.nextQuestion();
+                //   // questionNumber++;
+                // });
               },
             ),
           ),
