@@ -34,14 +34,15 @@ class _QuizPageState extends State<QuizPage> {
     bool correctAnswer = quizBrain.getQuestionAnswer();
     setState(() {
       if (correctAnswer == true) {
+        scoreKeeper.add(Icon(
+          Icons.check,
+          color: Colors.green,
+        ));
         // print('User got it correct!');
       } else {
         // print('User got it wrong!');
       }
-      scoreKeeper.add(Icon(
-        Icons.check,
-        color: Colors.green,
-      ));
+
       quizBrain.nextQuestion();
       // questionNumber++;
     })
