@@ -38,7 +38,7 @@ class _QuizPageState extends State<QuizPage> {
         Alert(
                 context: context,
                 title: 'FINISHED!',
-                type: AlertType.error,
+                type: AlertType.info,
                 desc: 'You have finished the quiz.')
             .show();
         quizBrain.reset();
