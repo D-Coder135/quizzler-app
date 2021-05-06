@@ -40,6 +40,7 @@ class _QuizPageState extends State<QuizPage> {
             title: 'FINISHED!',
             type: AlertType.error,
             desc: 'You have finished the quiz.');
+        quizBrain.reset();
       }
 
       if (correctAnswer == userPickedAnswer) {
