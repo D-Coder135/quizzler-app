@@ -54,4 +54,6 @@ class QuizBrain {
       return false;
     }
   }
+
+  void reset() {}
 }
