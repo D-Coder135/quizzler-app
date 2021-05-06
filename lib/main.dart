@@ -42,22 +42,22 @@ class _QuizPageState extends State<QuizPage> {
             desc: 'You have finished the quiz.');
         quizBrain.reset();
         scoreKeeper = [];
-      }
-
-      if (correctAnswer == userPickedAnswer) {
-        scoreKeeper.add(Icon(
-          Icons.check,
-          color: Colors.green,
-        ));
-        // print('User got it correct!');
       } else {
-        // print('User got it wrong!');
-        scoreKeeper.add(
-          Icon(Icons.close, color: Colors.red),
-        );
+        if (correctAnswer == userPickedAnswer) {
+          scoreKeeper.add(Icon(
+            Icons.check,
+            color: Colors.green,
+          ));
+          // print('User got it correct!');
+        } else {
+          // print('User got it wrong!');
+          scoreKeeper.add(
+            Icon(Icons.close, color: Colors.red),
+          );
+        }
+        quizBrain.nextQuestion();
+        // questionNumber++;
       }
-      quizBrain.nextQuestion();
-      // questionNumber++;
     });
   }
   // int questionNumber = 0;
