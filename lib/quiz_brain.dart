@@ -1,6 +1,8 @@
 import 'questions.dart';
 
 class QuizBrain {
+  int questionNumber = 0;
+
   //NOTE--> For making a variable private in dart language we put a underscore sign before its name.
   List<Question> _questionBank = [
     Question('Some cats are actually allergic to humans', true),
