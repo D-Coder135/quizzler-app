@@ -36,10 +36,11 @@ class _QuizPageState extends State<QuizPage> {
     setState(() {
       if (quizBrain.isFinished()) {
         Alert(
-            context: context,
-            title: 'FINISHED!',
-            type: AlertType.error,
-            desc: 'You have finished the quiz.');
+                context: context,
+                title: 'FINISHED!',
+                type: AlertType.error,
+                desc: 'You have finished the quiz.')
+            .show();
         quizBrain.reset();
         scoreKeeper = [];
       } else {
