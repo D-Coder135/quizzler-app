@@ -50,6 +50,6 @@ class QuizBrain {
   bool isFinished() {
     if (_questionNumber == _questionBank.length - 1) {
       return true;
-    }
+    } else {}
   }
 }
