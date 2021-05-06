@@ -138,6 +138,7 @@ class _QuizPageState extends State<QuizPage> {
                   } else {
                     print('User got it wrong!');
                   }
+                  quizBrain.nextQuestion();
                   // questionNumber++;
                   scoreKeeper.add(
                     Icon(
