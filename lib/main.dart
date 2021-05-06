@@ -34,9 +34,9 @@ class _QuizPageState extends State<QuizPage> {
     bool correctAnswer = quizBrain.getQuestionAnswer();
     setState(() {
       if (correctAnswer == true) {
-        print('User got it correct!');
+        // print('User got it correct!');
       } else {
-        print('User got it wrong!');
+        // print('User got it wrong!');
       }
       scoreKeeper.add(Icon(
         Icons.check,
