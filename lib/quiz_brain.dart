@@ -55,5 +55,7 @@ class QuizBrain {
     }
   }
 
-  void reset() {}
+  void reset() {
+    _questionNumber = 0;
+  }
 }
