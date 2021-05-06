@@ -42,14 +42,12 @@ class _QuizPageState extends State<QuizPage> {
       } else {
         // print('User got it wrong!');
         scoreKeeper.add(
-          Icon(Icons.close,
-          color: Colors.red),
+          Icon(Icons.close, color: Colors.red),
         );
       }
-
       quizBrain.nextQuestion();
       // questionNumber++;
-    })
+    });
   }
   // int questionNumber = 0;
 
